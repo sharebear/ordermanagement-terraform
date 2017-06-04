@@ -26,3 +26,10 @@ the configuration.
 $ terraform plan
 $ terraform apply
 ```
+
+Upon completion terraform will output the access-key-id and secret-access-key of
+an IAM user with access to allow running the ordermanagement-* projects from a
+local development machine.
+
+Note: This is _not_ a secure method of creating users and keys but provides for
+a simple demo setup.
